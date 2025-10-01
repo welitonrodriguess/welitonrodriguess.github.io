@@ -163,13 +163,13 @@ function Projects() {
   )
 }
 
-function Activities() {
+function Certifications() {
   return (
-    <section id="activities" aria-labelledby="activities-title">
+    <section id="certifications" aria-labelledby="certifications-title">
       <div className="container">
-        <h2 id="activities-title">Atividades</h2>
+        <h2 id="certifications-title">Certificações</h2>
         <ul className="card" style={{listStyle:"disc", paddingLeft:"26px"}}>
-          {content.activities.map((a,i)=>(<li key={i}>{a}</li>))}
+          {content.certifications.map((a,i)=>(<li key={i}>{a}</li>))}
         </ul>
       </div>
     </section>
@@ -223,7 +223,7 @@ function App() {
         <Experience/>
         <Skills/>
         <Projects/>
-        <Activities/>
+        <Certifications/>
         <Education/>
         <Contact/>
       </main>
