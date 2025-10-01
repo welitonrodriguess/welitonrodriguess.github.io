@@ -7,7 +7,7 @@ const content = {
   headline: "Software Engineer / JAVA / SpringBoot / MySQL / Docker",
   summary: "Estudante de Engenharia de Software (3ª fase) em migração de carreira para tecnologia. Foco em Java, Spring Boot, MySQL e React, com projetos práticos e vontade de aprender rápido.",
   location: "Jaraguá do Sul, Santa Catarina, Brasil",
-  email: "mailto:weliton.rodrigues29wr@gmail.com",
+  email: "mailto:weliton.rodrigues29.wr@gmail.com",
   social: {
     github: "https://github.com/welitonrodriguess",
     linkedin: "https://www.linkedin.com/in/weliton-rodriguess",
@@ -64,7 +64,7 @@ const content = {
       highlights: ["Foco em processamento de dados e tecnologia"]
     }
   ],
-  lastUpdated: "2025-09-30"
+  lastUpdated: "Outubro 2025"
 }
 
 function Header() {
@@ -78,7 +78,7 @@ function Header() {
             <a href="#experience">Experiência</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projetos</a>
-            <a href="#activities">Atividades</a>
+            <a href="#activities">Certificações</a>
             <a href="#education">Educação</a>
             <a href="#contact">Contato</a>
           </div>
@@ -202,7 +202,7 @@ function Contact() {
       <div className="container">
         <h2 id="contact-title">Contato</h2>
         <div className="card">
-          <p><strong>Email:</strong> <a href={content.email}>weliton.rodrigues29wr@gmail.com</a></p>
+          <p><strong>Email:</strong> <a href={content.email}>weliton.rodrigues29.wr@gmail.com</a></p>
           <p>
             <strong>Links:</strong> <a href={content.social.github} target="_blank" rel="noreferrer">GitHub</a> ·{" "}
             <a href={content.social.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
