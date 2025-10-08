@@ -1,19 +1,25 @@
-# Portfólio — Weliton Rodrigues
+Portfólio pessoal construído com React + Vite, focado em performance, SEO e facilidade de manutenção. Aqui eu apresento projetos, experiência, contato e links rápidos. Se ficou bonito, foi intencional. Se ficou rápido, também. 😎
 
-Projeto one-page em React (Vite). Acessível, responsivo e pronto para GitHub Pages.
+✨ Features
 
-## Scripts
-- `npm install`
-- `npm run dev`
-- `npm run build`
+UI rápida com Vite + React
 
-## Deploy no GitHub Pages
-1. Suba para `welitonrodriguess.github.io` **ou** para um repositório como `portfolio`.
-2. Se for **project page** (não `username.github.io`), rode o build com base:
-   ```bash
-   VITE_BASE=/portfolio npm run build
-   ```
-   Em seguida, publique o diretório `dist/` nas Pages ou use a action.
-3. Opcional: `npm run deploy` (usa `gh-pages`).
+SEO: metas, Open Graph e JSON-LD (schema.org/Person)
 
-Última atualização: 2025-09-30
+Dark mode (se aplicável) e layout responsivo
+
+Componentização limpa e tipagem opcional (TS-ready)
+
+Integrações fáceis (WhatsApp, LinkedIn, GitHub, e-mail)
+
+Deploy automático no GitHub Pages (Actions)
+
+🧱 Tech Stack
+
+Frontend: React 18+, Vite 5+
+
+Linguagem: JavaScript (ou TypeScript, se já estiver usando)
+
+Estilos: CSS/Tailwind/SCSS (ajuste conforme seu projeto)
+
+Deploy: GitHub Pages via GitHub Actions
